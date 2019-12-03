@@ -1,0 +1,26 @@
+name: Heimdall
+version: ${project.version}
+main: me.walrus.Heimdall.Heimdall
+authors: [Walrus]
+description: A all-inclusive ticket system.
+commands:
+  ticket:
+    aliases:
+      - hticket
+      - heimdallticket
+  staffchat:
+    aliases:
+      - hstaffchat
+      - hsc
+      - sc
+      - heimdallstaffchat
+      - heimdallsc
+  verify:
+    aliases:
+      - hverify
+      - heimdallverify
+  hreload:
+    aliases:
+      - heimdallreload
+      - heimreload
+      - hr
